@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace WebApplication1
+namespace WebApplication2
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace WebApplication1
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("WebApplication1!");
+                await context.Response.WriteAsync("WebApplication2!");
             });
         }
     }
